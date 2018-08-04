@@ -1,0 +1,18 @@
+
+*,
+*::after,
+*::before {
+    // ensure margin padding and box-sizing are cleared
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // used so that 1rem = 10px on normal browsers
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
